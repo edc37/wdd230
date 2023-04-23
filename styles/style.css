@@ -3,6 +3,9 @@
 #content {
     display: grid;
 }
+body {
+    background-color: #fdf4f5;
+}
 header {
     display: grid;
     grid-template-columns: 150px auto;
