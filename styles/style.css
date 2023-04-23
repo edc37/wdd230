@@ -17,6 +17,9 @@ h1 {
     align-self: center;
     justify-self: center;
 }
+h2 {
+    color: #e8a0bf;
+}
 h1, h2 {
     font-family: quicksand, 'Times New Roman', serif;
 }
@@ -24,9 +27,18 @@ ul {
     font-family: 'work serif', Arial, sans-serif;
     color:#e8a0bf;
 }
+ul a {
+    text-decoration: none;
+    color: #A4BC92;
+}
+ul a:hover {
+    background-color: #A4BC92;
+    color: #DDFFBB;
+}
 footer {
     background-color: #e8a0bf;
     color: #fdf4f5;
+    font-family: quicksand, 'Times New Roman', serif;
     display: flex;
     padding: 25px 50px;
     margin-top: 200px;
