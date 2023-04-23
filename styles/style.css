@@ -1,11 +1,35 @@
 @import url("https://fonts.googleapis.com/css2?family=Quicksand&family=Work+Sans:wght@300&display=swap");
 
+#content {
+    display: grid;
+}
+header {
+    display: grid;
+    grid-template-columns: 150px auto;
+    background-color: #e8a0bf;
+    color: #fdf4f5;
+}
+#me {
+    width: 200px;
+    margin: 20px;
+}
+h1 {
+    align-self: center;
+    justify-self: center;
+}
 h1, h2 {
     font-family: quicksand, 'Times New Roman', serif;
 }
 ul {
     font-family: 'work serif', Arial, sans-serif;
+    color:#e8a0bf;
 }
 footer {
-    
+    background-color: #e8a0bf;
+    color: #fdf4f5;
+    display: flex;
+    padding: 25px 50px;
+    margin-top: 200px;
+    justify-content: space-around;
+    align-items: center;
 }
