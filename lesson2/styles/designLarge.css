@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Bitter&display=swap');
+
+body {
+    display: grid;
+    font-family: bitter, 'Times New Roman', Times, serif;
+    grid-template-columns: 1fr, 1fr, 1fr;
+    background-color: #EDF1D6;
+}
+header {
+    background-color: #609966;
+    color: #EDF1D6;
+    grid-column: 1/4;
+}
+.hicks {
+    grid-column: 1/2;
+}
+.fitts {
+    grid-column: 2/3;
+}
+.contrast {
+    grid-column: 3/4;
+}
+img {
+    width: 70%;
+}
+div {
+    border: #40513B;
+    border-style: solid;
+    margin: 10px 10px;
+    justify-content: 0 auto;
+}
+footer {
+    background-color: #609966;
+    color: #EDF1D6;
+    grid-column: 1/4;
+}
