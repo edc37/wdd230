@@ -1,3 +1,24 @@
 @media only screen and (min-width: 481px) and (max-width: 768px) {
-
+    body {
+        grid-template-columns: 1fr, 1fr;
+        grid-template-rows: 1fr, 1fr, 1fr, 1fr;
+    }
+    header {
+        grid-row: 1/2;
+    }
+    .hicks {
+        grid-column: 1/2;
+        grid-row: 2/3;
+    }
+    .fitts {
+        grid-column: 2/3;
+        grid-row: 2/3;
+    }
+    .contrast {
+        grid-column: 1/3;
+        grid-row: 3/4;
+    }
+    footer {
+        grid-row: 4/5;
+    }
 }

@@ -1,16 +1,17 @@
 @media only screen and (max-width: 480px) {
     body {
-        grid-template-columns: 1fr;
         grid-template-rows: 1fr, 1fr, 1fr, 1fr, 1fr;
-        background-color: blueviolet;
     }
     .hicks {
+        grid-column: 1/4;
         grid-row: 2/3;
     }
     .fitts {
+        grid-column: 1/4;
         grid-row: 3/4;
     }
     .contrast {
+        grid-column: 1/4;
         grid-row: 4/5;
     }
     div {
