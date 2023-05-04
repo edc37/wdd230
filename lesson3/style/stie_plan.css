@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Ysabeau&display=swap');
+
+body {
+    background-color: #F2E3DB;
+    font-family: Ysabeau, 'Times New Roman', Times, serif;
+}
+.white {
+    border: black;
+    border-style: dotted;
+}
+.light_green {
+    color: #F2E3DB;
+    background-color: #416441;
+}
+.dark_green {
+    color: #F2E3DB;
+    background-color: #263A29;
+}
+.orange {
+    color: black;
+    background-color: #E86A33;
+}
