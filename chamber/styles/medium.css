@@ -1,20 +1,47 @@
 /*35rem is also 560px when pasebont is 16px*/
 @media only screen and (min-width: 40rem) {
+    .chamber {
+        padding: none;
+        justify-self: start;  
+        font-size: 1.2em;  
+    }
+    #today {
+        font-size: 1.5em;
+        padding-left: 11em;
+        padding-right: 11em;
+    }
+    main {
+        display: grid;
+        flex-direction: column;
+    }
+    main div {
+        margin: 5px;
+    }
+    .spotlights {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    #spotlight1 {
+        grid-column: 1/2;
+        grid-row: 1/3;
+    }
+    #spotlight2 {
+        grid-column: 2/3;
+        grid-row: 1/3;
+    }
+    #spotlight1, #spotlight2 {
+        width: auto;
+        height: auto;
+    }
+    footer {
+        display: grid;
+        grid-template-columns: 2fr 1fr;
+        grid-template-rows: 3fr 1fr;
+    }
+    #footer_bottom {
+        grid-row: 2/3;
+        grid-column: span 3;
+        justify-self: center;
+    }
 
-    nav button {display: none;}
-    
-    nav ul#primaryNav {
-        display: flex;
-        justify-content: flex-start;
-        margin-left: 2vw;
-        border-left: 1px solid rgba(0,0,0,0.3);
-    }
-    
-    
-    nav ul li a {
-        border: none;
-        border-right: 1px solid rgba(0,0,0,0.3);
-    
-    }
-    
     } /* end medium */

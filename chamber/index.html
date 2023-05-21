@@ -11,34 +11,50 @@
     <link rel="icon" href="images/favicon.ico">
 </head>
 <body>
-    <nav>
-        <img class="logo" src="images/Pawnee.png" alt="Pawnee Chamber of Commerce logo">
-        <h3>Pawnee</h3>
-        <p>Chamber of Commerce</p>
-        <button id="hamburgerBtn"><span>&#9776;</span><span>X</span></button>
-        <ul id="primaryNav">
-            <li><a href="#">Page 1</a></li>
-            <li><a href="#">Page 2</a></li>
-            <li><a href="#">Page 3</a></li>
-            <li><a href="#">Page 4</a></li>
-            <li><a href="#"><img src="images/facebook.png" alt="facebook"></a></li>
-            <li><a href="#"><img src="images/instagram.png" alt="instagram"></a></li>
-        </ul>
-        <p id="today"></p>
-    </nav>
-    <div>Hero with site name and call to action</div>
-    <div>Event</div>
-    <div>Weather</div>
-    <div>News Release</div>
-    <div>Spotlights</div>
+    <header>
+        <div class="chamber">
+            <img class="logo" src="images/Pawnee.png" alt="Pawnee Chamber of Commerce logo">
+            <div id="title">
+                <h3>Pawnee</h3>
+                <p>Chamber of Commerce</p>
+            </div>
+        </div>
+        <a  href="#"><img class="social" src="images/facebook.png" alt="facebook"></a>
+        <a  href="#"><img class="social" src="images/instagram.png" alt="instagram"></a>
+        <nav>
+            <button id="hamburgerBtn"><span>&#9776;</span><span>X</span></button>
+            <ul id="primaryNav">
+                <li><a href="#">Page 1</a></li>
+                <li><a href="#">Page 2</a></li>
+                <li><a href="#">Page 3</a></li>
+                <li><a href="#">Page 4</a></li>
+            </ul>
+        </nav>
+        <div id="today"></div>
+    </header>
+    <main>
+        <div class="hero">Hero with site name and call to action</div>
+        <div class="event">Event</div>
+        <div class="weather">Weather</div>
+        <div class="news">News Release</div>
+        <div class="spotlights">
+            <div id="spotlight1">Spotlight1</div>
+            <div id="spotlight2">Spotlight2</div>
+            <div id="spotlight3">Spotlight3</div>
+        </div>
+        <div class="join">Join</div>
+    </main>
     <footer>
-        <img class="logo" src="images/Pawnee.png" alt="Pawnee Chamber of Commerce logo">
-        <p>car16030@byui.edu</p>
-        <a href="images/pawneeMap.jpg">Pawnee Map</a>
-
-        <p>&copy;2023 &bull; Pawnee Chamber of Commerce &bull;
-            Emily Carrera &bull; WDD 230 Project</p>
-        <p id="date-modified"></p>
+        <div id="footer_top">
+            <img class="logo" src="images/Pawnee.png" alt="Pawnee Chamber of Commerce logo">
+            <p>car16030@byui.edu</p>
+            <a href="images/pawneeMap.jpg">Pawnee Map</a>
+        </div>
+        <div id="footer_bottom">
+            <p>&copy;2023 | Pawnee Chamber of Commerce |
+            Emily Carrera | WDD 230 Project</p>
+            <p id="date-modified"></p>
+        </div>
     </footer>
     <script src="scripts/pawneeJS.js"></script>
 </body>
