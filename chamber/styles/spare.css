@@ -22,13 +22,6 @@ nav button {
     border-radius: 10%;
 }
 
-nav ul li.active a {
-    background-color: #41644A;
-    color: #F2E3DB;
-}
-nav ul li:hover {
-    background-color: #41644A;
-}
 /*footer {
     grid-column: 1/5;
 }*/

@@ -1,8 +1,14 @@
 /* 64em is also 1028px when basefont is 16px */
 @media only screen and (min-width: 64rem) {
 
-    nav ul {display:contents}
-
+    nav ul {
+        display:contents;
+        flex-flow: row;
+    }
+    nav li {
+        display: inline-block;
+    }
+    nav {order: 1;}
     main {
         display: grid;
         grid-template-columns: 1fr 2fr 1fr;
@@ -21,11 +27,15 @@
         grid-row: 2/3;
     }
     .join {
+        border: 1px solid brown;
         display: contents;
         grid-column: 1/2;
         grid-row: 3/4;
     }
-    #spotlight3 { display: contents;}
+    #spotlight3 {
+        display: contents;
+        border: solid brown 1px;
+    }
     .news {
         grid-column: 2/3;
         grid-row: 3/4;
