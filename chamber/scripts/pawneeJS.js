@@ -1,3 +1,4 @@
+/* Display date */
 let dayNames = [
     "Sunday",
     "Monday",
@@ -28,9 +29,11 @@ let year = d.getFullYear();
 let fullDate = (`${dayName}, ${d.getDate()} ${monthName} ${year}`)
 document.querySelector("#today").innerHTML = fullDate;
 
+/* last modified */
 let mod = document.lastModified;
 document.querySelector("#date-modified").innerHTML = mod;
 
+/*hamburger */
 function toggleMenu () {
     document.getElementById("primaryNav").classList.toggle("open");
     document.getElementById("hamburgerBtn").classList.toggle("open");
@@ -38,3 +41,9 @@ function toggleMenu () {
 
 const x = document.getElementById("hamburgerBtn");
 x.onclick = toggleMenu;
+
+/* banner */
+let dayNum = new Date().getDay();
+if (dayNum == 1 || dayNum == 2) {
+    alert("🤝🏼 Come join us for the chamber meet and greet Wednesday at 7:00 p.m." );
+}
