@@ -14,10 +14,14 @@
 <body>
     <header>
         <div class="chamber">
-            <img class="logo" src="images/Pawnee100.png" alt="Pawnee Chamber of Commerce logo">
-            <div id="title">
-                <h2>Pawnee</h2>
-                <h3>Chamber of Commerce</h3>
+            <div class="chamber_content">
+                <div class="logo_div">
+                    <img class="logo" src="images/Pawnee100.png" alt="Pawnee Chamber of Commerce logo">
+                </div>
+                <div id="title">
+                    <h2>Pawnee</h2>
+                    <h3>Chamber of Commerce</h3>
+                </div>
             </div>
         </div>
         <a  href="#"><img class="social" src="images/facebook.png" alt="facebook"></a>
@@ -34,9 +38,22 @@
         <div id="today"></div>
     </header>
     <main>
-        <div class="hero">Hero with site name and call to action</div>
+        <div class="hero">
+            <img src="images/hero.jpg" alt="hero" sizes="50vw"
+            srcset="images/hero200.jpg 200w, images/hero500.jpg 500w. images/hero800.jpg 800w, images/hero1100.jpg 1100w">
+        </div>
         <div class="event">Event</div>
-        <div class="weather">Weather</div>
+        <div class="weather">
+            <div>
+                <h4>Windchill Calculator</h4>
+                <p>Temperature:</p> 
+                <input type="text" id="temp">
+                <p>Wind Speed:</p>
+                <input type="text" id="wind_speed">
+                <button type="button" onclick="doInputOutput()">Chill</button>
+                <div id="chillOutput"></div>
+            </div>
+        </div>
         <div class="news">News Release</div>
         <div class="spotlights">
             <div id="spotlight1">Spotlight1</div>

@@ -1,14 +1,24 @@
 @import url('https://fonts.googleapis.com/css2?family=Ysabeau&display=swap');
 
+/*---BODY---*/
+body {
+    font-family: Ysabeau, 'Times New Roman', Times, serif;;
+}
+
 /*---HEADER---*/
 header {
     display: flex;
     background-color: lightseagreen;
-    font-family: Ysabeau, 'Times New Roman', Times, serif;
     flex-wrap: wrap;
-    padding-top: 2%;
+    /*padding-top: 2%;*/
 }
-.chamber {
+.logo_div {
+    border: 1px solid white;
+}
+#title {
+    border: 1px solid orange;
+}
+/*.chamber {
     padding-right: 5%;
 }
 .chamber #title {
@@ -16,10 +26,9 @@ header {
 }
 .chamber,  nav, .social {
     margin: 2% 0 0 0;
-}
+}*/
 .logo {
-    border-radius: 20%;
-    margin-left: 2%;
+    width: 100%
 }
 .social {
     border-radius: 50%;
@@ -63,6 +72,7 @@ main {
 .join, #spotlight3 {
     display: none;
 }
+main .hero img { width: 100%;}
 .hero {
     background-color: lightblue;
 }

@@ -47,3 +47,16 @@ let dayNum = new Date().getDay();
 if (dayNum == 1 || dayNum == 2) {
     alert("🤝🏼 Come join us for the chamber meet and greet Wednesday at 7:00 p.m." );
 }
+
+/* WINDCHILL */
+
+function doInputOutput() {
+    let tempF = parseFloat(document.getElementById("temp").value);
+    let speed = parseFloat(document.getElementById("wind_speed").value);
+    let display = windChill(tempF, speed);
+    document.getElementById("chillOutput").innerHTML = display;
+}
+function windChill(tempF, speed) {
+    let chill = 35.74 + .6215 * tempF - (35.75 * speed ** .16) + (.4275 * tempF * (speed ** .16));
+    return chill.toFixed(2);
+}
