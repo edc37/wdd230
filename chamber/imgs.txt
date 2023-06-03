@@ -1,10 +1,16 @@
+ <img src="https://unsplash.com/photos/lQA8GRqgczY" alt="Wamapoke dance">
+            <img src="https://unsplash.com/photos/F_xGk7V0Xbc" alt="Paunch Burger">
+            <img src="https://unsplash.com/photos/OQOKSsj8QME" alt="Snakehole Lounge">
+            <img src="https://unsplash.com/photos/V4A9Kn1Q9SQ" alt="Harvest Festival">
+            <img src="https://unsplash.com/photos/vJDbPuxUS_s" alt="Park">
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Pawnee Chamber of Commerce</title>
+    <title>Discover</title>
     <link rel="stylesheet" href="styles/normalize.css">
     <link rel="stylesheet" href="styles/small.css">
     <link rel="stylesheet" href="styles/medium.css">
@@ -37,31 +43,26 @@
         </nav>
         <div id="today"></div>
     </header>
-    <main class="index">
-        <div class="hero">
-            <img src="images/hero.jpg" alt="hero" sizes="50vw"
-            srcset="images/hero200.jpg 200w, images/hero500.jpg 500w. images/hero800.jpg 800w, images/hero1100.jpg 1100w">
+
+    <main class="discover">
+        <div id="discoverIntro">
+            <h1>Discover Pawnee</h1>
+            <h2>Learn more about the local sites and businesses here in Pawnee, Indiana</h2>
         </div>
-        <div class="event">Event</div>
-        <div class="weather">
-            <div>
-                <h4>Windchill Calculator</h4>
-                <p>Temperature:</p> 
-                <input type="text" id="temp">
-                <p>Wind Speed:</p>
-                <input type="text" id="wind_speed">
-                <button type="button" onclick="doInputOutput()">Chill</button>
-                <div id="chillOutput"></div>
-            </div>
+        <div class="discoverImgs">
+            <img src="images/burger1920.jpg" loading="lazy"
+            alt="Wamapoke dance">
+            <img src="images/festival1920.jpg" loading="lazy"
+            alt="Paunch Burger">
+            <img src="images/park1920.jpg" loading="lazy"
+            alt="Snakehole Lounge">
+            <img src="images/snakehole1920.jpg" loading="lazy"
+             alt="Harvest Festival">
+            <img src="images/wamapoke1920.jpg" loading="lazy"
+             alt="Park">
         </div>
-        <div class="news">News Release</div>
-        <div class="spotlights">
-            <div id="spotlight1">Spotlight1</div>
-            <div id="spotlight2">Spotlight2</div>
-            <div id="spotlight3">Spotlight3</div>
-        </div>
-        <div class="join">Join</div>
     </main>
+    
     <footer>
         <div id="footer_top">
             <img class="logo" src="images/Pawnee100.png" alt="Pawnee Chamber of Commerce logo">

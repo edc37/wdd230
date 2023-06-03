@@ -8,7 +8,8 @@ body {
 /*---HEADER---*/
 header {
     display: flex;
-    background-color: lightseagreen;
+    background-color: #4f709c;
+    color: #f5efe7;
     flex-wrap: wrap;
     /*padding-top: 2%;*/
 }
@@ -29,6 +30,7 @@ header {
 }*/
 .logo {
     width: 100%
+
 }
 .social {
     border-radius: 50%;
@@ -88,7 +90,7 @@ main .hero img { width: 100%;}
 .spotlights {
     background-color: yellow;
 }
-main div {
+.index div {
     margin: 2% 2% 2%  2%;
     border: solid brown;
 }
@@ -96,7 +98,8 @@ main div {
 /*---FOOTER---*/
 footer {
     display: flex;
-    background-color: lightseagreen;
+    background-color: #4f709c;
+    color: #f5efe7;
     align-content: center;
     justify-content: center;
     padding-top: 2%;
@@ -108,4 +111,12 @@ footer {
     align-items: center;
     margin: auto;
     justify-content: space-around;
+}
+/*---DISCOVER---*/
+.discover {
+    background-color: #F5EFE7;
+    color: #213555;
+}
+.discoverImgs  img{
+    width: 100%;
 }
