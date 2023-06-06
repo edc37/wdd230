@@ -1,0 +1,30 @@
+body {
+  background-color: black;
+}
+table, td, th {
+  border-collapse: collapse;
+  border: 1px solid #F6FFA6;
+  padding: 10px;
+  text-align: center;
+}
+thead th {
+  border: none;
+  background-color: #9376E0;
+}
+thead {
+  color: #F6FFA6;
+}
+.feature2 {
+  background-color: #E893CF;
+}
+.feature1, .feature3 {
+  background-color: #F3BCC8;
+}
+thead tr :nth-child(n+2) {
+  border: 1px #F6FFA6 solid;
+  background-color: #E893CF;
+  color: #7F669D;
+}
+tbody tr :nth-child(n+1) {
+  color: #7F669D;
+}
