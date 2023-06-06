@@ -14,11 +14,12 @@ thead th {
 thead {
   color: #F6FFA6;
 }
-.feature2 {
+tr:nth-child(even) {
   background-color: #E893CF;
 }
-.feature1, .feature3 {
-  background-color: #F3BCC8;
+
+tr:nth-child(odd) {
+  background-color: #F3BCC8;;
 }
 thead tr :nth-child(n+2) {
   border: 1px #F6FFA6 solid;
