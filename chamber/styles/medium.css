@@ -32,4 +32,18 @@
         height: auto;
     }
 
+    /*---FORM---*/
+    .join {
+        font-size: 1.25rem;
+    }
+    form #description input {
+        height: 150px;
+    }
+    form label.top input, form label.sbs {
+        padding: .5rem;
+    }
+    form .submitBtn {
+        padding: 10px 2%;
+        margin: 0 0 1.5rem 2.5rem;
+    }
     } /* end medium */
