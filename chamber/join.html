@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Join</title>
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/small.css">
+    <link rel="stylesheet" href="styles/medium.css">
+    <link rel="stylesheet" href="styles/large.css">
+    <link rel="icon" href="images/favicon.ico">
+</head>
+<body>
+    <header>
+        <div class="chamber_content">
+            <div class="logo_div">
+                <img class="logo" src="images/Pawnee100.png" alt="Pawnee Chamber of Commerce logo">
+            </div>
+            <div id="title">
+                <h2>Pawnee</h2>
+                <h3>Chamber of Commerce</h3>
+            </div>
+        </div>
+    <div id="buttons">
+    <a  href="#"><img class="social" src="images/facebook.png" alt="facebook"></a>
+    <a  href="#"><img class="social" src="images/instagram.png" alt="instagram"></a>
+    <button id="hamburgerBtn"><span>&#9776;</span><span>X</span></button>
+    </div>
+    <div id="today"></div>
+    <nav>
+        <ul id="primaryNav">
+            <li><a href="discover.html">Discover</a></li>
+            <li><a href="join.html">Join</a></li>
+            <li><a href="#">Page 3</a></li>
+            <li><a href="#">Page 4</a></li>
+        </ul>
+    </nav>
+</header>
+
+    <main>
+        <h1>Apply to be a Member of the Pawnee Chamber of Commerce</h1>
+        <form method="get" action="thanks.html">
+            <fieldset>
+                <legend>Info</legend>
+                <label class="top">First Name<input type="text" name="fname" required></label>
+                <label class="top">Last Name<input type="text" name="lname" required></label>
+                <label class="top">Title<input type="text" name="title"></label>
+                <label class="top">Email<input type="email" name="email" placeholder="you@gmail.com" required></label>
+                <label class="top">Phone<input type="tel" name="phone" required placeholder="5551234567"></label>
+                <label class="top">Business Name<input type="text" name="business" required></label>
+            </fieldset>
+            
+            <fieldset>
+                <legend>Membership Level</legend>
+                <label class="sbs"><input type="radio" name="memberLvl" value="NP"> Non Profit</label>
+                <label class="sbs"><input type="radio" name="memberLvl" value="Bronze"> Bronze</label>
+                <label class="sbs"><input type="radio" name="memberLvl" value="Silver"> Silver</label>
+                <label class="sbs"><input type="radio" name="memberLvl" value="Gold"> Gold</label>
+            </fieldset>
+
+            <fieldset>
+                <legend>Business Description</legend>
+                <label class="top" id="description">Please tell us about your business.<input type="text"></label>
+            </fieldset>
+
+            <input type="submit" value="Apply for Membership" class="submitBtn">
+        </form>
+ 
+    </main>
+
+    <footer>
+        <div id="footer_top">
+            <img class="logo" src="images/Pawnee100.png" alt="Pawnee Chamber of Commerce logo">
+            <p>car16030@byui.edu</p>
+            <a href="images/pawneeMap.jpg">Pawnee Map</a>
+        </div>
+        <div id="footer_bottom">
+            <p>&copy;2023 | Pawnee Chamber of Commerce |
+            Emily Carrera | WDD 230 Project</p>
+            <p id="date-modified"></p>
+        </div>
+    </footer>
+    <script src="scripts/pawneeJS.js"></script>
+</body>
+</html>

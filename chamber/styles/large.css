@@ -28,12 +28,12 @@
     }
     .join {
         border: 1px solid brown;
-        display: contents;
+        display: block;
         grid-column: 1/2;
         grid-row: 3/4;
     }
     #spotlight3 {
-        display: contents;
+        display: block;
         border: solid brown 1px;
     }
     .news {

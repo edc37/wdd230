@@ -13,7 +13,6 @@
 </head>
 <body>
     <header>
-        <div class="chamber">
             <div class="chamber_content">
                 <div class="logo_div">
                     <img class="logo" src="images/Pawnee100.png" alt="Pawnee Chamber of Commerce logo">
@@ -23,20 +22,22 @@
                     <h3>Chamber of Commerce</h3>
                 </div>
             </div>
-        </div>
+        <div id="buttons">
         <a  href="#"><img class="social" src="images/facebook.png" alt="facebook"></a>
         <a  href="#"><img class="social" src="images/instagram.png" alt="instagram"></a>
+        <button id="hamburgerBtn"><span>&#9776;</span><span>X</span></button>
+        </div>
+        <div id="today"></div>
         <nav>
-            <button id="hamburgerBtn"><span>&#9776;</span><span>X</span></button>
             <ul id="primaryNav">
-                <li><a href="#">Page 1</a></li>
-                <li><a href="#">Page 2</a></li>
+                <li><a href="discover.html">Discover</a></li>
+                <li><a href="join.html">Join</a></li>
                 <li><a href="#">Page 3</a></li>
                 <li><a href="#">Page 4</a></li>
             </ul>
         </nav>
-        <div id="today"></div>
     </header>
+
     <main class="index">
         <div class="hero">
             <picture>
@@ -49,15 +50,13 @@
         </div>
         <div class="event">Event</div>
         <div class="weather">
-            <div>
                 <h4>Windchill Calculator</h4>
                 <p>Temperature:</p> 
                 <input type="text" id="temp">
                 <p>Wind Speed:</p>
                 <input type="text" id="wind_speed">
                 <button type="button" onclick="doInputOutput()">Chill</button>
-                <div id="chillOutput"></div>
-            </div>
+                <div id="chillOutput">Windchill</div>
         </div>
         <div class="news">News Release</div>
         <div class="spotlights">
