@@ -46,4 +46,12 @@
         padding: 10px 2%;
         margin: 0 0 1.5rem 2.5rem;
     }
+    .thanks {
+        display: block;
+        grid-column: 1/3;
+        padding: 1.5rem;
+    }
+    .thanksFooter {
+        margin-top: 60%;
+    }
     } /* end medium */
