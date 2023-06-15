@@ -33,7 +33,7 @@
         <ul id="primaryNav">
             <li><a href="discover.html">Discover</a></li>
             <li><a href="join.html">Join</a></li>
-            <li><a href="#">Page 3</a></li>
+            <li><a href="directory.html">Page 3</a></li>
             <li><a href="#">Page 4</a></li>
         </ul>
     </nav>
@@ -46,7 +46,7 @@
                 <legend>Info</legend>
                 <label class="top">First Name *<input type="text" name="fname" required></label>
                 <label class="top">Last Name *<input type="text" name="lname" required></label>
-                <label class="top">Title<input type="text" name="title"></label>
+                <label class="top">Title<input type="text" name="title" pattern="([a-zA-Z0-9_]{7})\w+"></label>
                 <label class="top">Email *<input type="email" name="email" placeholder="you@gmail.com" required></label>
                 <label class="top">Phone *<input type="tel" name="phone" required placeholder="5551234567"></label>
                 <label class="top">Business Name *<input type="text" name="business" required></label>
@@ -176,7 +176,7 @@
                 <label class="top" id="description">Please tell us about your business.<input type="text"></label>
             </fieldset>
 
-            <input type="submit" value="Apply for Membership" class="submitBtn">
+            <input onsubmit="timestamp()" type="submit" value="Apply for Membership" class="submitBtn">
         </form>
  
     </main>
