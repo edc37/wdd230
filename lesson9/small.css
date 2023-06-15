@@ -1,0 +1,8 @@
+.cards {
+    border: solid blue 1px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+section {
+    border: solid pink 1px;
+}

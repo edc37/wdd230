@@ -60,3 +60,11 @@ function windChill(tempF, speed) {
     let chill = 35.74 + .6215 * tempF - (35.75 * speed ** .16) + (.4275 * tempF * (speed ** .16));
     return chill.toFixed(2);
 }
+
+/* Submit Timestamp */
+function timestamp() {
+    let submission = document.lastModified;
+    document.querySelector(".submitBtn").innerHTML = submission;
+}
+
+
