@@ -1,0 +1,82 @@
+{
+    {
+        "name" : "Paunch Burger",
+        "address" :"2137 Peter St",
+        "phone" : "",
+        "website" : "https://parksandrecreation.fandom.com/wiki/Paunch_Burger?so=search",
+        "image" : "",
+        "membership" : ""
+    },
+    
+    {
+        "name" : "Sweetums",
+        "address" :"15722 Township Rd",
+        "phone" : "4194260017",
+        "website" : "https://parksandrecreation.fandom.com/wiki/Sweetums?so=search",
+        "image" : "",
+        "membership" : ""
+    },
+    
+    {
+        "name" : "Pawnee City Hall",
+        "address" :"1817 Union St",
+        "phone" : "",
+        "website" : "https://parksandrecreation.fandom.com/wiki/Pawnee_City_Hall?so=search",
+        "image" : "",
+        "membership" : ""
+    },
+    
+    {
+        "name" : "Snakehole Lounge",
+        "address" :"26001 Burnham Ave",
+        "phone" : "",
+        "website" : "https://parksandrecreation.fandom.com/wiki/The_Snakehole_Lounge?so=search",
+        "image" : "",
+        "membership" : ""
+    },
+
+    {
+        "name" : "Wamapoke Casino",
+        "address" :"2011 Hotate Way",
+        "phone" : "",
+        "website" : "https://parksandrecreation.fandom.com/wiki/Wamapoke_Casino?so=search",
+        "image" : "",
+        "membership" : ""
+    },
+
+    {
+        "name" : "Rent-A-Swag",
+        "address" :"12059 Ventura Plc",
+        "phone" : "",
+        "website" : "https://parksandrecreation.fandom.com/wiki/Rent-A-Swag?so=search",
+        "image" : "",
+        "membership" : ""
+    },
+
+    {
+        "name" : "Tom's Bistro",
+        "address" :"5936 Delancey Blvd ",
+        "phone" : "",
+        "website" : "https://parksandrecreation.fandom.com/wiki/Tom's_Bistro?so=search",
+        "image" : "",
+        "membership" : ""
+    },
+
+    {
+        "name" : "Entertainment 720",
+        "address" :"",
+        "phone" : "",
+        "website" : "https://parksandrecreation.fandom.com/wiki/Entertainment_720?so=search",
+        "image" : "",
+        "membership" : ""
+    },
+
+    {
+        "name" : "Kernston's Rubber Nipples",
+        "address" :"",
+        "phone" : "",
+        "website" : "https://parksandrecreation.fandom.com/wiki/Kernston%27s_Rubber_Nipples",
+        "image" : "",
+        "membership" : ""
+    }
+}
