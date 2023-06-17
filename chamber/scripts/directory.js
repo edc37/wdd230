@@ -1,4 +1,4 @@
-let directory = [
+let directory = `[
     {
         "name" : "Paunch Burger",
         "address" :"2137 Peter St",
@@ -79,6 +79,13 @@ let directory = [
         "image" : "images/kernstons_rubber_nipples.webp",
         "membership" : "Bronze"
     }
-];
+]`
 
-console.log(directory[1]);
+const businesses = JSON.parse(directory)[0].name;
+businesses.forEach(business => {
+    const name = business.name;
+});
+
+document.querySelector("#output").innerHTML = burger;
+
+console.log(JSON.parse(directory)[0]);
