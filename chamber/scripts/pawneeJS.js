@@ -66,5 +66,3 @@ function timestamp() {
     let submission = document.lastModified;
     document.querySelector(".submitBtn").innerHTML = submission;
 }
-
-
