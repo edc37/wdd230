@@ -13,8 +13,15 @@ header {
     display: grid;
     grid: repeat(3, auto)/repeat(2, auto);
     background-color: #4f709c;
-    color: #f5efe7;
+    color: #F5EFE7;
     flex-wrap: wrap;
+}
+.logo_div {
+    padding: 1.5rem .75rem 0 .75rem;
+}
+header img {
+    border: 1px solid #F5EFE7;
+    border-radius: 10%;
 }
 .chamber_content {
     display: flex;
@@ -29,7 +36,7 @@ header {
 }
 .social {
     border-radius: 50%;
-    border: 2px #F2E3DB solid;
+    border: 2px #F5EFE7 solid;
     width: 60%;
 }
 #today {
@@ -58,7 +65,7 @@ nav a:hover {
     background-color: blue;
 }
 nav button {
-    background-color: #F2E3DB;
+    background-color: #F5EFE7;
     border: none;
     border-radius: 10%;
     font-size: 2rem;
@@ -96,18 +103,19 @@ main .hero img {
 footer {
     display: flex;
     background-color: #4f709c;
-    color: #f5efe7;
+    color: #F5EFE7;
     align-content: center;
     justify-content: center;
+    align-items: center;
     padding-top: 2%;
     flex-direction: column;
-    align-items: center;
 }
-#footer-top {
-    justify-content: center;
-    align-items: center;
-    margin: auto;
-    justify-content: space-around;
+#footer_top, #footer_bottom {
+    text-align: center;
+}
+footer img {
+    border: 1px solid #F5EFE7;
+    border-radius: 10%;
 }
 /*---DISCOVER---*/
 .discover {
@@ -181,4 +189,15 @@ table, td, th {
 }
 table caption {
     caption-side: bottom;
+}
+
+/*---WEATHER---*/
+.weather {
+    background-color: #41644A;
+    color: #F5EFE7;
+    text-align: center;
+}
+.weather img {
+    border: 1px solid #D8C4B6;
+    border-radius: 50%;
 }
