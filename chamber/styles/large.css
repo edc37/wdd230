@@ -8,7 +8,13 @@
     nav li {
         display: inline-block;
     }
-    nav {order: 1;}
+    nav {
+        order: 1;
+        text-align: center;
+    }
+    #buttons {
+        justify-content: right;
+    }
     main {
         display: grid;
         grid-template-columns: 1fr 2fr 1fr;
