@@ -65,7 +65,7 @@ nav ul.open {display: block;}
 #hamburgerBtn.open span:nth-child(2) {display: block;}
 
 nav a:hover {
-    background-color: blue;
+    background-color: #213555;
 }
 nav button {
     background-color: #F5EFE7;
