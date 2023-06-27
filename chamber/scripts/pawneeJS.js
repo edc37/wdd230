@@ -42,11 +42,11 @@ function toggleMenu () {
 const x = document.getElementById("hamburgerBtn");
 x.onclick = toggleMenu;
 
-/* banner */
+/* banner 
 let dayNum = new Date().getDay();
 if (dayNum == 1 || dayNum == 2) {
     alert("🤝🏼 Come join us for the chamber meet and greet Wednesday at 7:00 p.m." );
-}
+}*/
 
 /* WINDCHILL 
 
