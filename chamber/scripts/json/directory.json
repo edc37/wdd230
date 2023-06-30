@@ -84,8 +84,8 @@
         "name" : "JJ's Diner",
         "address" : "",
         "phone" : "930-553-4637",
-        "webiste" : "",
-        "image" : "",
-        "memberpship" : ""
+        "webiste" : "https://parksandrecreation.fandom.com/wiki/JJ%27s_Diner",
+        "image" : "images/jjdinerlogo.webp",
+        "memberpship" : "Silver"
     }
 ]
