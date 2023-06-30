@@ -78,5 +78,14 @@
         "website" : "https://parksandrecreation.fandom.com/wiki/Kernston%27s_Rubber_Nipples",
         "image" : "images/kernstons_rubber_nipples.webp",
         "membership" : "Bronze"
+    },
+
+    {
+        "name" : "JJ's Diner",
+        "address" : "",
+        "phone" : "930-553-4637",
+        "webiste" : "",
+        "image" : "",
+        "memberpship" : ""
     }
 ]

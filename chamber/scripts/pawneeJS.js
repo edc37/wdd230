@@ -113,3 +113,6 @@ function displayResults(weatherData) {
     windChill.innerHTML = `<strong>${chill.toFixed(2)}</strong>`;
 }
 apiFetch();
+
+/* JSON */
+/* const response = await fetch('json/chamberDirectory.json'); */
