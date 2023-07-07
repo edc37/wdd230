@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Serif&family=Inter&display=swap');
+
+/*---BODY---*/
+body {
+    font-family: "IBM Plex Serif", 'Times New Roman', Times, serif;
+    max-width: 1400px;
+    margin: auto;
+}
+body a {
+    color: #44613C;
+    text-decoration: none;
+}
+
+/*---HEADER---*/
+header {
+    display: grid;
+    grid: repeat(3, auto)/repeat(2, auto);
+    background-color: #650D17;
+    color: #F6FCF9;
+}
+.logo_div img {
+    height: 5rem;
+}
+#buttons {
+    display: flex;
+    align-items: center;
+    padding-right: 10px;
+}
+nav ul {
+    display: none;
+    text-decoration: none;
+}
+nav ul.open {display: block;}
+
+#hamburgerBtn span:nth-child(1) {display: block;}
+#hamburgerBtn span:nth-child(2) {display: none;}
+
+#hamburgerBtn.open span:nth-child(1) {display: none;}
+#hamburgerBtn.open span:nth-child(2) {display: block;}
+
+nav a:hover {
+    background-color: #213555;
+}
+nav button {
+    background-color: #F5EFE7;
+    border: none;
+    border-radius: 10%;
+    font-size: 2rem;
+}
+
+nav li {
+    padding: 10px;
+    list-style: none;
+}
+
+/*---FOOTER---*/
+footer {
+    background-color: #F6FCF9;
+}
